@@ -2,6 +2,26 @@ body {
     background: Khaki;
 }
 
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    fontfamily: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
+}
+
+::selection {
+    background: #e85e00;
+    color: white;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #e85e00;
+    color: white;
+    text-shadow: none;
+}
+
 img {
     width: 100%;
 }
